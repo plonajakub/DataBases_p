@@ -2,7 +2,7 @@ insert into Tools (tool_id, type, model, manufacturer_name) values (1, 'CR-V', n
 insert into Tools (tool_id, type, model, manufacturer_name) values (2, 'B-Series', null, null);
 insert into Tools (tool_id, type, model, manufacturer_name) values (3, '2500', null, 'USG Corporation');
 insert into Tools (tool_id, type, model, manufacturer_name) values (4, 'Savana 1500', null, 'Frontline Ltd.');
-insert into Tools (tool_id, type, model, manufacturer_name) values (5, 'GTO', null, 'Kate Spade & Company');
+insert into Tools (tool_id, type, model, manufacturer_name) values (5, 'GTO', null, 'Kate Spade &' || ' Company');
 insert into Tools (tool_id, type, model, manufacturer_name) values (6, 'Lumina', null, 'Atrion Corporation');
 insert into Tools (tool_id, type, model, manufacturer_name) values (7, 'Sierra 2500', null, 'YuMe, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (8, 'B-Series Plus', null, 'John Hancock Preferred Income Fund III');
@@ -20,7 +20,7 @@ insert into Tools (tool_id, type, model, manufacturer_name) values (19, 'C-Class
 insert into Tools (tool_id, type, model, manufacturer_name) values (20, 'Silhouette', null, 'AllianceBernstein Holding L.P.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (21, 'Achieva', null, null);
 insert into Tools (tool_id, type, model, manufacturer_name) values (22, 'MDX', '55154-5620', 'Rex Energy Corporation');
-insert into Tools (tool_id, type, model, manufacturer_name) values (23, 'Elantra', '43406-0070', 'PowerShares S&P SmallCap Health Care Portfolio');
+insert into Tools (tool_id, type, model, manufacturer_name) values (23, 'Elantra', '43406-0070', 'PowerShares S&' || 'P SmallCap Health Care Portfolio');
 insert into Tools (tool_id, type, model, manufacturer_name) values (24, 'Caravan', '55264-269', 'Pangaea Logistics Solutions Ltd.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (25, 'Vibe', '16590-875', 'Eiger BioPharmaceuticals, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (26, 'Sierra', null, 'China Green Agriculture, Inc.');
@@ -37,7 +37,7 @@ insert into Tools (tool_id, type, model, manufacturer_name) values (36, 'Mirage'
 insert into Tools (tool_id, type, model, manufacturer_name) values (37, 'Sunfire', null, 'WesBanco, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (38, '9-5', null, 'SmartFinancial, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (39, 'del Sol', '51991-318', 'Intrepid Potash, Inc');
-insert into Tools (tool_id, type, model, manufacturer_name) values (40, 'Eldorado', null, 'PowerShares Russell 1000 Low Beta Equal Weight Portfolio');
+insert into Tools (tool_id, type, model, manufacturer_name) values (40, 'Eldorado', null, 'PowerShares Russell 1000 Equal Weight Portfolio');
 insert into Tools (tool_id, type, model, manufacturer_name) values (41, 'APV', null, 'Lions Gate Entertainment Corporation');
 insert into Tools (tool_id, type, model, manufacturer_name) values (42, '900', null, 'Tiptree Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (43, 'Aspire', null, null);
@@ -48,10 +48,10 @@ insert into Tools (tool_id, type, model, manufacturer_name) values (47, 'Lumina'
 insert into Tools (tool_id, type, model, manufacturer_name) values (48, 'New Beetle', '54868-4248', null);
 insert into Tools (tool_id, type, model, manufacturer_name) values (49, 'Trooper', '0185-0404', 'Central Europe, Russia and Turkey Fund, Inc. (The)');
 insert into Tools (tool_id, type, model, manufacturer_name) values (50, '300M', null, 'Emergent Biosolutions, Inc.');
-insert into Tools (tool_id, type, model, manufacturer_name) values (51, 'Suburban 1500', null, 'First Trust Nasdaq Oil & Gas ETF');
+insert into Tools (tool_id, type, model, manufacturer_name) values (51, 'Suburban 1500', null, 'First Trust Nasdaq Oil &' || ' Gas ETF');
 insert into Tools (tool_id, type, model, manufacturer_name) values (52, 'RSX', '0363-0759', 'Match Group, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (53, 'Montero', '76352-001', 'NICE Ltd');
-insert into Tools (tool_id, type, model, manufacturer_name) values (54, 'Firefly', null, 'The Gabelli Healthcare & Wellness Trust');
+insert into Tools (tool_id, type, model, manufacturer_name) values (54, 'Firefly', null, 'The Gabelli Healthcare &' || ' Wellness Trust');
 insert into Tools (tool_id, type, model, manufacturer_name) values (55, 'Forester', null, 'China Distance Education Holdings Limited');
 insert into Tools (tool_id, type, model, manufacturer_name) values (56, 'LSS', null, 'DXC Technology Company');
 insert into Tools (tool_id, type, model, manufacturer_name) values (57, '5 Series', '52959-018', 'Coffee Holding Co., Inc.');
@@ -68,7 +68,7 @@ insert into Tools (tool_id, type, model, manufacturer_name) values (67, '5 Serie
 insert into Tools (tool_id, type, model, manufacturer_name) values (68, 'X5', '57955-6006', 'Nuveen Municipal Income Fund, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (69, 'Bronco', null, null);
 insert into Tools (tool_id, type, model, manufacturer_name) values (70, 'Forester', '55154-7807', 'Bank of the Ozarks');
-insert into Tools (tool_id, type, model, manufacturer_name) values (71, 'Prelude', '0179-8705', 'John Hancock Hedged Equity & Income Fund');
+insert into Tools (tool_id, type, model, manufacturer_name) values (71, 'Prelude', '0179-8705', 'John Hancock Hedged Equity &' || ' Income Fund');
 insert into Tools (tool_id, type, model, manufacturer_name) values (72, 'Savana 2500', null, null);
 insert into Tools (tool_id, type, model, manufacturer_name) values (73, 'Quattroporte', null, 'First Trust Canada AlphaDEX Fund');
 insert into Tools (tool_id, type, model, manufacturer_name) values (74, 'Park Avenue', null, 'Capital One Financial Corporation');
@@ -93,7 +93,7 @@ insert into Tools (tool_id, type, model, manufacturer_name) values (92, 'Legacy'
 insert into Tools (tool_id, type, model, manufacturer_name) values (93, 'Truck', null, 'SmartFinancial, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (94, '5 Series', null, 'First Trust Enhanced Short Maturity ETF');
 insert into Tools (tool_id, type, model, manufacturer_name) values (95, 'Impreza', '50563-184', null);
-insert into Tools (tool_id, type, model, manufacturer_name) values (96, 'Sephia', '64942-1249', 'Western Asset High Yield Defined Opportunity Fund Inc.');
+insert into Tools (tool_id, type, model, manufacturer_name) values (96, 'Sephia', '64942-1249', 'Western Asset Defined Opportunity Fund Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (97, 'Range Rover', '0409-4279', 'Griffon Corporation');
 insert into Tools (tool_id, type, model, manufacturer_name) values (98, 'Discovery', '67046-308', 'Wolverine Bancorp, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (99, 'Jimmy', null, 'Ramco-Gershenson Properties Trust');
@@ -101,7 +101,7 @@ insert into Tools (tool_id, type, model, manufacturer_name) values (100, 'S6', n
 insert into Tools (tool_id, type, model, manufacturer_name) values (101, 'Montero', null, 'HFF, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (102, 'Club Wagon', null, '21Vianet Group, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (103, 'MX-5', null, 'Energy Transfer Equity, L.P.');
-insert into Tools (tool_id, type, model, manufacturer_name) values (104, 'MPV', null, 'PowerShares S&P SmallCap Materials Portfolio');
+insert into Tools (tool_id, type, model, manufacturer_name) values (104, 'MPV', null, 'PowerShares S&' || 'P SmallCap Materials Portfolio');
 insert into Tools (tool_id, type, model, manufacturer_name) values (105, 'Compass', null, 'Pretium Resources, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (106, 'Tracer', '42002-504', 'SemiLEDS Corporation');
 insert into Tools (tool_id, type, model, manufacturer_name) values (107, 'MX-6', null, 'Fibria Celulose S.A.');
@@ -120,11 +120,11 @@ insert into Tools (tool_id, type, model, manufacturer_name) values (119, 'XK Ser
 insert into Tools (tool_id, type, model, manufacturer_name) values (120, 'Gallardo', '21695-628', 'Aratana Therapeutics, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (121, 'Yukon XL 2500', null, 'Insteel Industries, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (122, 'Range Rover', null, 'New Residential Investment Corp.');
-insert into Tools (tool_id, type, model, manufacturer_name) values (123, 'C-Class', '43063-469', 'Voya Emerging Markets High Income Dividend Equity Fund');
-insert into Tools (tool_id, type, model, manufacturer_name) values (124, 'G-Series G10', null, 'Nuveen California AMT-Free Quality Municipal Income Fund');
+insert into Tools (tool_id, type, model, manufacturer_name) values (123, 'C-Class', '43063-469', 'Voya Emerging Income Dividend Equity Fund');
+insert into Tools (tool_id, type, model, manufacturer_name) values (124, 'G-Series G10', null, 'Nuveen California Municipal Income Fund');
 insert into Tools (tool_id, type, model, manufacturer_name) values (125, 'Jetta', null, 'Gabelli Global Small and Mid Cap Value Trust (The)');
 insert into Tools (tool_id, type, model, manufacturer_name) values (126, '9000', null, 'STERIS plc');
-insert into Tools (tool_id, type, model, manufacturer_name) values (127, '9-5', null, 'Christopher & Banks Corporation');
+insert into Tools (tool_id, type, model, manufacturer_name) values (127, '9-5', null, 'Christopher &' || ' Banks Corporation');
 insert into Tools (tool_id, type, model, manufacturer_name) values (128, 'Passat', '67234-020', null);
 insert into Tools (tool_id, type, model, manufacturer_name) values (129, 'Regal', null, null);
 insert into Tools (tool_id, type, model, manufacturer_name) values (130, '500SEL', null, 'Antero Midstream Partners LP');
@@ -136,9 +136,9 @@ insert into Tools (tool_id, type, model, manufacturer_name) values (135, 'Mustan
 insert into Tools (tool_id, type, model, manufacturer_name) values (136, 'Town Car', null, 'Hancock Holding Company');
 insert into Tools (tool_id, type, model, manufacturer_name) values (137, 'Miata MX-5', null, 'STRATS Trust');
 insert into Tools (tool_id, type, model, manufacturer_name) values (138, 'New Beetle', null, 'Insteel Industries, Inc.');
-insert into Tools (tool_id, type, model, manufacturer_name) values (139, 'Corvette', null, 'Baldwin & Lyons, Inc.');
+insert into Tools (tool_id, type, model, manufacturer_name) values (139, 'Corvette', null, 'Baldwin &' || ' Lyons, Inc.');
 insert into Tools (tool_id, type, model, manufacturer_name) values (140, 'Lancer Evolution', null, null);
-insert into Tools (tool_id, type, model, manufacturer_name) values (141, '9-3', '51511-596', 'Baltimore Gas & Electric Company');
+insert into Tools (tool_id, type, model, manufacturer_name) values (141, '9-3', '51511-596', 'Baltimore Gas &' || ' Electric Company');
 insert into Tools (tool_id, type, model, manufacturer_name) values (142, 'MX-5', null, null);
 insert into Tools (tool_id, type, model, manufacturer_name) values (143, 'Galant', null, 'Nuveen Virginia Quality Municipal Income Fund');
 insert into Tools (tool_id, type, model, manufacturer_name) values (144, 'Liberty', null, 'Computer Programs and Systems, Inc.');
