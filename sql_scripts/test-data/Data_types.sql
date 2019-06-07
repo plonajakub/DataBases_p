@@ -1,0 +1,10 @@
+insert into data_types(data_type, unit) values ('temperature', 'K');
+insert into data_types(data_type, unit) values ('weight', 'kg');
+insert into data_types(data_type, unit) values ('voltage', 'V');
+insert into data_types(data_type, unit) values ('mole', 'mol');
+insert into data_types(data_type, unit) values ('pressure', 'Pa');
+insert into data_types(data_type, unit) values ('denisity', 'kg/m^3');
+insert into data_types(data_type, unit) values ('length', 'm');
+insert into data_types(data_type, unit) values ('power', 'W');
+insert into data_types(data_type, unit) values ('melting point', 'K');
+insert into data_types(data_type, unit) values ('energy', 'J');
