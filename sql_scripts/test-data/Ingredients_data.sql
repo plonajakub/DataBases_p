@@ -1,5 +1,5 @@
 insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (1, 'ARNICA MONTANA', 5932, 'zero administration', 18);
-insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (2, ' Zinc', 8251, 'Enhanced', 34);
+insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (2, 'Zinc', 8251, 'Enhanced', 34);
 insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (3, 'Hydrocodone Bitartrate And Acetaminophen', 3686, 'Virtual', 7);
 insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (4, 'Meclizine HCl', 9027, 'ability', 30);
 insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (5, 'Tobramycin', 8244, 'info-mediaries', 33);
@@ -159,7 +159,7 @@ insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, suppli
 insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (159, 'incobotulinumtoxinA', 3158, 'multi-tasking', 36);
 insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (160,  'Dextromethorphan HBr', 4603, 'Extended', 3);
 insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (161, 'Doxycycline', 7508, 'Organized', 17);
-insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (162, '', 7410, 'firmware', 48);
+insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (162, 'dexofnadine hydrochloride', 7410, 'firmware', 48);
 insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (163, 'SODIUM FLUORIDE', 4063, 'interface', 1);
 insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (164, 'OCTINOXATE and TITANIUM DIOXIDE', 8359, 'Graphic Interface', 18);
 insert into Ingredients (ingredient_id, ingredient_name, quantity, notes, supplier_id) values (165, 'Phenylephrine HCI, PETROLATUM, MINERAL OIL', 168, 'Optional', 36);
