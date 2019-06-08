@@ -10,6 +10,7 @@ DECLARE
     v_temp_supplier suppliers%ROWTYPE;
     
     e_missing_ingredients EXCEPTION;
+    
     CURSOR c_ingredients IS
         SELECT i.ingredient_id AS id, i.ingredient_name AS name, i.quantity AS available_quantity, ifr.ingredient_quantity AS needed_quantity, i.supplier_id
         FROM ingredients_for_recipe ifr
@@ -64,7 +65,6 @@ BEGIN
         END IF;
         IF v_missing_ingredients THEN
             ROLLBACK TO before_process_creation;
-            dbms_output.put_line(CHR(10) || 'Process not created!' || CHR(10) || 'No changes were made to the database.' || CHR(10));
             RAISE e_missing_ingredients;
         END IF;
     END LOOP;
@@ -80,4 +80,7 @@ BEGIN
         dbms_output.put_line('Tool with ID = ' || to_char(tool.id) || ' added to TOOLS_IN_USE for current process');
     END LOOP;
     dbms_output.put_line(CHR(10) || 'New process created!' || CHR(10));
+EXCEPTION
+    WHEN OTHERS THEN
+        dbms_output.put_line(CHR(10) || 'Process not created!' || CHR(10) || 'No changes were made to the database.' || CHR(10));
 END;
